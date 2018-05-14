@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+
+body {
+  background: #2e9ce6;
+  font-family: 'Ubuntu', sans-serif;
+}
+a {text-decoration: none;}
+nav   {   clear: both; margin: 2em}
+nav ul { list-style-type: none;  }
+nav ul li { float: left; background:#2885c4; margin: .6em; padding: 2em;  }
+nav ul li a{  color: #fff}
+
+.container { display: grid; grid-template-columns: 50% auto; color: #fff; clear: both;}
+.container .col { padding:4em}
+.color-dark {background: #2885c4}
+.color-light {background: #5785c4}
+
+input.txt{ border:0; padding: 1em;}
+input.btn{ border:0; padding: 1em 3em; background:#A5f883; color: #2e9ce6}
+.life-container{ background:#2885c4; padding: 2em; font-weight: bold; cursor: pointer;}
